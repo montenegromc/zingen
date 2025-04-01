@@ -46,7 +46,7 @@ html {
     font-weight: var(--fw-base);
     font-size: var(--fs-base);
     line-height: 1.6;
-    color: var(--brand-color-primary);
+    color: var(--text-color-primary);
 }
 
 body {
@@ -90,6 +90,11 @@ a:hover {
 
 ul [role="list"] {
    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
 }
 
 @media (whith >= 80em) {
